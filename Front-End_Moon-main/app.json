@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Moon",
+    "slug": "Moon",
+    "scheme": "moon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "notification":{
+      "icon":"./assets/logo.png",
+        "color":"#000000"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moon.moon",
+      "associatedDomains": [
+        "applinks:moon-2b7b7.web.app"
+      ],
+      "infoPlist": {
+        "CFBundleUrlTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.311731786971-8u57guhlrft7cg0qaqder4dkk0ulk0gt"
+            ]
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.moon.moon"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a9741a1-8d97-4a1f-9e50-ac15ee2fb0ff"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0a9741a1-8d97-4a1f-9e50-ac15ee2fb0ff"
+    }
+  }
+}
